@@ -1,0 +1,23 @@
+
+<launch>
+    <param name="config_file" type="string" 
+        value="/home/daojun/myrosprojects_ws/src/VIEKFSLAM2/config/mynteye.yaml"/>
+
+    <param name="world_frame_id"    type="string"   value="world"/>
+    <param name="body_frame_id"     type="string"   value="robot"/>
+
+    <param name="imu_topic"         type="string"   value="/mynteye/imu/data_raw"/>
+    <param name="img_topic"         type="string"   value="/mynteye/left_rect/image_rect"/>
+
+    <param name="noise/gyro"        type="double"   value="7.4906185772280476e-04" />
+    <param name="noise/acc"         type="double"   value="1.0842165435898382e-02 "/>
+    <param name="noise/gyro_bias"   type="double"   value="2.0601596304422952e-05"/>
+    <param name="noise/acc_bias"    type="double"   value="2.4403290885264121e-04 "/>
+
+    <param name="marker_size"       type="double"   value="0.101"/>
+    <param name="observation_noise" type="double"   value="0.01"/>
+
+    <node pkg="VIEKFSLAM2" type="vi_ekfslam_node" name="vi_ekfslam" output="screen">
+    </node>
+
+</launch>
