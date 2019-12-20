@@ -2,6 +2,7 @@
 An implementation of visual-inertial EKF SLAM, more specific, the known correspondence EKF SLAM. 
 The visual features are markers.It uses IMU measurements to predict system states and
 visual markers measurements to update system states.
+The system simultaneously estimates the 15-dims imu states and 6-dims marker states 
 
 ### click the image to watch the demo video
 
