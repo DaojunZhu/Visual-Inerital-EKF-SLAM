@@ -6,6 +6,8 @@ The system simultaneously estimates the 15-dims imu states and 6-dims marker sta
 
 The detail description can be found in https://zhuanlan.zhihu.com/p/98472384
 
+### If you have any issues, feel free to contact me through email(daojun@mail.ustc.edu.cn)
+
 ### click the image to watch the demo video
 
 [![image](https://github.com/DaojunZhu/Visual-Inerital-EKF-SLAM/blob/master/VIEKFSLAM2/demo/viekfslam.png)](https://www.youtube.com/watch?v=G7p0Oaroe9g)
